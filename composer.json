@@ -1,0 +1,19 @@
+{
+    "name": "briansalo/calculator",
+    "description": "this will calculate numbers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "briansalo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BrianSalo\\": "src/",
+            "test\\": "src/"
+        }
+    }
+}
